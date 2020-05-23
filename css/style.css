@@ -8,12 +8,26 @@ body{
     margin-top: 10px;
 
 }
+.jumbotron{
 
+    background-image: url('../img/header2-bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -100px;
+    color: white;
+}
 
 .jumbotron img {
 
     width: 200px;
-    border: 5px solid #333;
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px rgb(0,0,0,0.5);
+
+}
+
+.jumbotron h1, .jumbotron p {
+
+    text-shadow: 1px 1px 10px rgb(0,0,0,0.5);
 
 }
 
